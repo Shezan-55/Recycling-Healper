@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://eponline.com/-/media/ENV/eponline/Images/2007/11/recycling.jpg);
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Ensures no repetition of the image */
+    overflow: hidden; /* Prevents unwanted scrollbars */
+}
+
+p {
+    font-size: large;
+    color: white; /* Optional: You may want to adjust the color of the text for readability */
+}
+

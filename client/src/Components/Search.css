@@ -1,0 +1,54 @@
+/* Ensure the wrapper has sufficient height and position */
+.wrapper {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.search-input {
+  position: relative;
+}
+
+.search-input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Suggestions box styling */
+.autocom-box {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto; /* Allows scrolling if too many suggestions */
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  z-index: 999; /* Ensure it's on top of other elements */
+}
+
+.autocom-box li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.autocom-box li:hover {
+  background-color: #f0f0f0; /* Highlight on hover */
+}
+
+/* Icon styling */
+.icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.fas.fa-search {
+  font-size: 16px;
+}
